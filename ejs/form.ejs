@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <link rel="stylesheet" href="/style/null.css">
+  <link rel="stylesheet" href="/style/form.css">
+  <link rel="stylesheet" href="/style/HeaderAndNav.css">
+</head>
+<body>
+  <div id="app">
+    <header class="headerStyle">
+      <h1 class="labelStyle">Label</h1>
+      <ul class="listStyle">
+        <button class="buttonStyle"><a href="/">Base infotmation</a></button>
+        <button class="buttonStyle"><a href="/form">Form</a></button>
+      </ul>
+    </header>
+    <div class="navAndMain">
+      <nav class="navStyle">Navigation menu</nav>
+      <main class="mainStyle">
+        <h2 class="h2Form">Заполните форму</h2>
+        <form class="formPerson" @submit.prevent="createPerson">
+          <input type="text" class="name" placeholder="Введите имя" v-model="name">
+          <input type="text" class="lastName" placeholder="Введите фамилию" v-model="lastName">
+          <input type="text" class="number" placeholder="Введите телефон" v-model="telefon">
+          <input type="text" class="email" placeholder="Введите почту" v-model="email">
+          <button type="submit" class="buttonForm" id="buttonForm">Отправить данные</button>
+          </div>
+        </form>
+      </main>
+  </div>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script src="/app.js" type="application/javascript"></script>
+</body>
+</html>

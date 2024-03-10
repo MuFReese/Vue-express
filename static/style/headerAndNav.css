@@ -1,0 +1,58 @@
+.headerStyle{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: black;
+  position: fixed;
+  width: 100%;
+}
+
+.labelStyle{
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+
+.listStyle{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.buttonStyle{
+  display: block;
+  padding: 0px 10px;
+  background-color: black;
+  font-size: 25px;
+  color: white;
+}
+
+.buttonStyle a{
+  color: white;
+}
+
+.buttonStyle:hover{
+  transition-duration: 0.5s;
+  text-shadow: 0px 0px 20px white;
+}
+
+.navAndMain{
+  display: flex;
+  height: 100%;
+}
+
+.navStyle{
+  margin-top: 90px;
+  position: fixed;
+  background-color: rgb(5, 5, 5);
+  color: white;
+  font-size: 30px;
+  padding: 20px 0px 0px 30px;
+  width: 200px;
+  height: 100%;
+}
+
+.mainStyle{
+  width: 100%;
+  margin: 90px 0px 0px 200px ;
+}
